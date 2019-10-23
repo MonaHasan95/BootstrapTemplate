@@ -1,0 +1,392 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+#colors
+{
+    top: 25%;
+    left: 0;
+}
+
+.mainColor
+{
+   background-color: #fed316;
+}
+.textColor
+{
+   color: #fed316;
+}
+#box
+{
+    width: 200px;
+    height: 50px;
+    background-color: rgba(0,0,0,0.7);
+}
+
+#box ul li
+{
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+    list-style: none;
+}
+#search
+{
+    width: 40px;
+    height: 40px;
+}
+.loaderScreen
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 555555555;
+    background-color:#fed316;
+}
+.spinner {
+  width: 40px;
+  height: 40px;
+
+  position: relative;
+  margin: 100px auto;
+}
+
+.double-bounce1, .double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+.foldarea
+{
+    background-image: url(../imgs/header-bg.jpg);  
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+}
+.navbar
+{
+    padding: 1.1rem 2rem;
+}
+
+
+.brand
+{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 28px;
+}
+.nav-item
+{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 10px;
+}
+
+.nav-link
+{
+    color: white !important;
+}
+
+.nav-link:hover
+{
+    color: #fed136 !important;
+}
+
+.foldarea .container
+{
+    padding-top: 70px;
+}
+.foldarea .container p
+{
+    font-family: 'Roboto Slab', serif;
+    padding-top: 70px;
+    font-size: 40px;
+    margin: 0;
+}
+
+.foldarea .container h1
+{
+    font-size: 75px;
+}
+
+.foldarea .container a
+{
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 50px;
+    padding: 15px 60px;
+}
+
+.adv
+{
+    font-family: 'Poppins', sans-serif;
+}
+.adv h3
+{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #002147;
+}
+.ad
+{
+    font-family: "segoe ui light";
+    position: relative;
+    overflow: hidden;
+}
+
+.ad:hover .caption
+{
+    top: 0;
+}
+.ad .caption
+{
+    background-color: rgba(0, 33, 71, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -100%;
+    transform: scale(0.9);
+    transition: top ease 1s;
+}
+.ad .caption h6
+{
+    font-size: 1.5rem;
+}
+
+.ad .caption p
+{
+    font-size: 17px;
+}
+
+.ad .caption a
+{
+    font-weight: 600;
+    font-size: 12px;
+}
+.ad-info p
+{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.caption a:hover
+{
+    text-decoration: none;
+}
+
+.ad .ad-info
+{
+    width: 100%;
+    transform: scale(0.9);
+    height: 30%;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    transition: bottom ease 1s;
+}
+
+.ad:hover .ad-info
+{
+    bottom: -100%;
+}
+
+.cats
+{
+    background-color: #f9f9f9;
+}
+
+.cat
+{
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    position: relative;
+    height: 175px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.cat1
+{
+    background-image: url(../imgs/cat/1.jpg);
+    background-size: cover;
+}
+
+.cat2
+{
+    background-image: url(../imgs/cat/2.jpg);
+    background-size: cover;
+}
+
+.cat3
+{
+    background-image: url(../imgs/cat/3.jpg);
+    background-size: cover;
+}
+.cat4
+{
+    background-image: url(../imgs/cat/4.jpg);
+    background-size: cover;
+}
+.cat5
+{
+    background-image: url(../imgs/cat/5.jpg);
+    background-size: cover;
+}
+.cat6
+{
+    background-image: url(../imgs/cat/6.jpg);
+    background-size: cover;
+}
+.cat7
+{
+    background-image: url(../imgs/cat/7.jpg);
+    background-size: cover;
+}
+.cat8
+{
+    background-image: url(../imgs/cat/8.jpg);
+    background-size: cover;
+}
+
+.cat .cat-info
+{
+    padding: 48px 20px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    transition: 1s;
+}
+.cat .cat-info p
+{
+    line-height: 1.2;
+    margin: 7px;
+}
+.cat-info1
+{
+    background-color: rgba(51, 122, 180, 1);
+}
+.cat:hover .cat-info1
+{
+   background-color: rgba(51, 122, 180, 0.58);
+}
+.cat-info2
+{
+    background-color: rgba(30, 193, 217, 1);
+}
+.cat:hover .cat-info2
+{
+   background-color: rgba(30, 193, 217, 0.6);
+}
+.cat-info3
+{
+    background-color: rgba(16, 196, 92, 1);
+}
+.cat:hover .cat-info3
+{
+    background-color: rgba(16, 196, 92, 0.6);
+}
+.cat-info4
+{
+    background-color: rgba(71, 197, 142, 1)
+}
+.cat:hover .cat-info4
+{
+    background-color: rgba(71, 197, 142, 0.6)
+}
+.cat-info5
+{
+    background-color: rgba(249, 189, 68, 1);
+}
+.cat:hover .cat-info5
+{
+    background-color: rgba(249, 189, 68, 0.6);
+}
+.cat-info6
+{
+    background-color: rgba(233, 72, 174, 1);
+}
+.cat:hover .cat-info6
+{
+    background-color: rgba(233, 72, 174, 0.6);
+}
+.cat-info7
+{
+    background-color: rgba(232, 75, 58, 1);
+}
+.cat:hover .cat-info7
+{
+    background-color: rgba(232, 75, 58, 0.6);
+}
+.cat-info8
+{
+    background-color: rgba(146, 39, 143, 1);
+}
+.cat:hover .cat-info8
+{
+    background-color: rgba(146, 39, 143, 0.6);
+}
+
+.thrd a
+{
+    position: relative;
+    background-color: rgba(254,209,54,1);
+}
+.thrd a i
+{   
+    transition: 1s;
+    z-index: 2;
+    position: absolute;
+    font-size: 5em;
+    color: white;
+    opacity: 0;
+}
+
+.thrd a img
+{
+    width: 100%;
+    transition: opacity 1s;
+}
+
+.thrd a:hover img
+{
+    opacity: 0.1;
+}
+
+.thrd a:hover i
+{
+    opacity: 1;
+}
